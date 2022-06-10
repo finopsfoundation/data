@@ -1,0 +1,32 @@
+How do you promote FinOps adoption in your organization? (Other answers)
+
+Some meetings here ... and there
+Working through users with high spend.
+Culture needs to be brought in
+monthly metrics reports by product groups
+We use a shameback model for optimization opportunities
+through monthly processes, account owners have certain responsibilities
+FinOps onboarding as cloud transformation process
+Cloud Stakeholders Collaboration
+vendor swag
+As per our above answers, we are still getting to build bridges with relevant stakeholders, we are pretty much establishing the practice and our current approach is through talks and calls.
+Constant communication at group and individual levels via emails, operations meetings, Teams channel
+Weekly scorecards with Cloud spend and efficiency KPIs
+bi weekly calls with Application owners, developers and architechts
+reporting
+Started to educate at very large (100's) events 
+Celebrate and promote successes
+Benchmarking
+Part of some teams learning and development goals
+Track and publicize the impact of behavior on per-team basis
+Marketting to the cloud owners
+Golden Paths
+Budgets are strictly managed
+Wanting to get gamification going, but unsure how to accomplish this.
+FinOps community (company internal)
+lunch and learns, and constant communication by my team
+Social pressure (nobody wants to be the team that looks bad in the reports)
+1:1 with teams
+stakeholder committee regular cadence
+IT policy and FinOps presentations & personal relationships
+We try and demonstrate the value in high visibility forums. 
