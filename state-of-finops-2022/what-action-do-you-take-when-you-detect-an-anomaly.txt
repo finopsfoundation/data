@@ -1,0 +1,640 @@
+What action do you take when you detect an anomaly (Text Answers)
+Report it to Stakeholder/Owner
+Inform the teams or customer where the anomaly has taken place, look into the underlying service to get to root cause and then adjust the service / fix / release or in some cases temporarily turn off the offending service.
+Manual investigation; escalate to team responsible for app (giving them support).
+Notify all the stakeholders involved, and understand the issue so it can be rectified. 
+Understand the reason from engineering team and fix it if it is not required or appropriate.
+Investigate.  Was it expected?
+analysis first, understand impact, find root cause and prevention plan
+We use anomaly detection in cloudability
+Notify Application Owner to analyze 
+alert account management and clients
+First we contact the internal responsible for the service, then we try to understandy what caused the anomaly and then, deppending of what type the anomaly is, we take actions, just like rearchitecting or reconfigure the environment.
+depends on the anomaly and how we are engaged with the customer, mostly get in contact with the related FinOps team at the cusstomer side or when part of the team get in contact with the resoruce owner who creates the anomaly
+finding the root cause and fix it if needed
+Reach out to App Teams causing the Anomaly
+work with cloud center of excellence to remediate
+depends from resource, type of anomaly and level of anomaly value/impact
+Notification to those with container/VM/application accountability plus their manager.
+Subscribe to anomaly detection in AWS and Cloudability
+Track down source of charge and determine if it is justified, or a configuration issue and take appropriate action.
+Reach out to the application owner
+Reach out to Engineering teams to provide the reasons
+delete it!
+Fix it and then go through a RCA process. 
+These are discussed in a weekly meeting.  Would like to get these to a daily response/correction
+Finops investigates and in parallel escalates to appropriate product+engineering team
+Dig in manually, alert workload owner
+"Work with owners, 
+1.	Verify asset is being used
+2.	Educate users/ Culture 
+3.	Right time power savings
+4.	Right Size
+5.	RI
+"
+Real-time notification (slack, email), Prediction of impact, Incident tracking.
+Reach out to business owner and technical team to communicate anomaly and understand driver
+Communication - unfortunately, it takes Azure 3 days for us to get all costs recorded because of our scale.   We try to track consumption data to predict cost, but if someone spins up a rouge cluster it's an email thread and a lot of panic.
+Dive into Data and work with the tech owner for the area where the anomaly lives 
+We do not do anything to detect an anomaly
+Figure out how to reduce the spend.
+multiple, review, evalute, action
+Use resource tagging to identify who's responsible for the resource, do an investigation. 
+dashboard reports, emails, meetings
+identify the cause and advise the course of action to reduce the impact of the anomaly
+manual detection 
+Follow a quick and standard decision workflow as to how to react to the cost change.
+Approach technical teams to understand the reasons and take corrective actions like shutting resources down. If no actions were taken by tech teams to justify the spike, CSP is contacted for further investigation.
+Analyze and report to the product owner
+eliminate it
+identification, correction and refund.
+Utilisation reporting, code changes, etc
+We can alert the relevant service owners or configure a policy which can call any API to take action.
+Contact with peers, submit a Ticket or Escalation
+Analyse , consult with team, recommend , execute 
+Still working on the anomaly
+We have optimisation teams that look into the automated reporting
+Inspect cloud resource and determine who owns it and whether it is still required
+Depends on the anomaly
+Inform the relevant stakeholder
+Consult Dev teams and customer liaisons
+Notify DevOps team to understand anomaly
+analyse what's happened
+Notify SRE and PO
+evaluate manually
+Discuss with owner of the service/subscription and sometimes the cloud provider to determine best course of action to correct.
+Jump on a call and discuss with our infrastructure team (SRE).
+Send email/slack
+Communicate to responsible entity and resolve asap
+Send out email; reach out to the asset owner about the anomaly
+run regular reports
+Escalation and analysis.
+Trying to understand where does it come from, then fix it W/O impact on environments
+none
+see the root cause and take some actions
+try to determine why it is happening
+Notification to identified individuals.
+contact account owner
+Work with teams to identify what has just happened and find the best approach for getting rid of the anomaly
+Check to see whether we should have expected it and then chase down the team responsible
+Slack/Email owner of asset or service if available, determine services involved, address during normal engineering standups
+Contact the resource owner / product owner to investigate and resolve.
+Investigate who/what caused, try to identify responsible party to remediate, and notify business 'payer'.
+Basically understand the root cause. After that, if it is something really unexpected, to develop an action plan to mitigate future issues.
+consulting the responsible person of the respwctive cloud account
+Advise the owner of the resource, so they can take action.
+Check the spend detail;ask the account owner or team. Escalate to resolve and or create incident ticket. 
+Contact app owner
+Highlight, push actionable insight on the exception to management and/or a control panel/provisioning tool
+Investigate
+Review
+Investigate 
+Bring it up with the responsible team.
+discuss with engineers
+Email/sms/phone
+Check with Engineering team
+Investigate and discuss anomaly with product owner.
+Immediately find out the cause and rectify it ASAP.
+Still to be defined
+Create an RCA
+Inform customers about the Anamoly, alongside possible causes and solutions to fix said Anamoly. 
+Notification on a service level and further investigation by cost owning team
+Share with the engineering owner
+Prise de contact avec l'équipe en charge de la remédiation
+Follow internal process to proactively investigate anomaly
+Contact the consumer
+Raise it with the concern team to which the resource is tagged
+I investigate and reach out to the team
+Contact cost owner
+Identify business unit responsible and verify what for and how to change or whether it is ongoing
+perform some initial triage, contact the tenants to verify whether this is planned or unexpected behaviour, take appropriate action to limit damage, where necessary treat it as an operational or security incident
+Analyse and action to avoid future wastage
+Filtering outliers. Change the value of outliers.
+Inform the responsible team
+find manually about the anomaly and investigate its reason with the help of team
+manual review
+"Categorization: unique vs repeated anomaly
+Investigation: For unique/true anomalies investigate source data
+Communicate/Alert : Notify most likely team/service owner and request investigation and/or explanation"
+Send alerts to resource owner and budget owner 
+Review tagging for resource ownership as catalyst for conversation
+Remediation
+no immediate actions, just collaborating with resource owner
+look at costs to confirm it is an anomaly and then reach out to the resource owner to take action or let us the spend is expected
+System and business usage reviews
+contact PL check what causes anomaly see what we can do to remediate
+Check deployed resources
+sq
+Find where the anomaly is from, then who deployed it and why. finally, take a decision : delete, reduce or handle with that
+Engage team triggering anomaly.
+Central Team starts the analysis and do a first assessment, only if needed they involve the Engineers, decision on further actions are made jointly with the Business Owner and Engineering
+Notify the relevant team and let them explain the anomaly and deal with it
+Report it to the account owner and/or engineering team
+Task Force Métier, Architecte Cloud, CFO
+La vérification des factures , en fonction des budgets initialement prévues
+Contact project team to understand if this expected cost or not 
+Contact engineering team 
+Check dashboards, analyze the origin, see the value and talk with the team in charge of the account
+ID the root cause
+Research the reasons
+investigating manually, looking at built / release history
+Detect where it took place and find out who is responsible
+The team dedicated use to contact relevant members from engineering and gather information regarding the anomaly. Usually process is completed with in 4-6 hours.
+"Weekly monitoring of subscriptions and accounts
+Jira ticket raised to devops
+Investigation with devops"
+Escalate to team causing the anomaly
+FinOps team discussions
+Analyse / Fix / Renew Process
+We contact the account owner and bring the abnormally to their attention asking them to action remediation or identify future expected occurrences. 
+Manual Review
+ESCALATION: CIO's, App teams, CIO
+Communicate with relevant stake holders and follow up for resolution, the stakeholder are also set up in the tool to be alerted
+Investigate to understand it
+Manuall follow ups
+Speak to the team responsible for the anomaly to identify action items
+"We use Apptio Cloudability to detect anomalies.
+The first action is to break down to costs and usage to see which AWS Account and product is associated with the anomaly.
+We then investigate the AWS Service to see what the cause is. 
+"
+inform business owner
+Account owner automatically notified of budget % consumed threshold triggers and determines if that is an anomaly. Engages cloud team for help to investigate if needed.
+Investigation 
+analyse manuelle + plan action
+Communicate to the service owner(s)
+TBD
+Check in with Platform Product owners to work out if theyre expecting the spend, then start looking using CloudAbility
+It is a secret process
+Cross functional review of inventory and spend to determine source and next steps
+Manually reviewing CUR and emailing the cost variance to other teams for additional research to see what application may have generated the additional load and then what business process was responsible.
+Incident is created and respective responsible team is contacted.
+Monthly cloud cost reviews with budget owners.  Working on rolling out policies and auto-reporting from CloudHealth. 
+Engage account owners at this stage
+Informing the team responsible to take action
+Follow up with the service owner
+contact appropriate development team
+find resource owner to identify the usage increase need and suppress use when is not expected
+monitor manually
+"We have found that anomaly detection is not a good tool in the hands of a centralized FinOps team since we do not know the day-to-day activities by the users of our 450 accounts. We will report the ones that seem egregious, but 9 times out of 10 we find that the spend was merely new but expected and not anomalous. 
+My attempts so far have been to encourage teams to set up detections that they can be notified of, but I have no way of knowing how many have actually done so. I am currently considering deploying an alarm to each account with a threshold which is of value to all use cases. If such a comprehensive threshold is even a reality."
+feedback, analysis, postmortem and remediation
+Work with the teams to ascertain the resources with the unexpected increase in cost
+Owners notified, Investigate if substantial
+Drill down on Cost Explorer to identify anomaly
+It's manual investigation
+Optimize the cost, applying several strategies.
+Investigate the alert, reach out to appropriate teams a verify change, then remediate as needed
+Research from the source.
+Communicate with the assigned Engineering team.
+automatic escalation
+Investigate logs, remediate, advise 
+Investigate
+reach out to the offending team and understand if it was intentional and/or can be remediated
+Escalate to concerned teams
+Depends of its annomally characteristics, but, in general, cloud engineerings acts on refactory of foundations, resizing and even some refactoring to other types of architectures, like serverless.
+We usually contact these teams manually and schedulle meetings to address the anomaly
+Analyze the data with related IT team
+"Call the system owner understand the reason perform a corrective action and update the new cost with the product owner"
+Reach out to team responsible, find out reason for anomaly, solutionize
+Research/discuss why changes occurred and what action to take
+Research specific cause, adjust accordingly
+unsure - handled by someone else.
+develop actionnable solutions to tackle the cost increase. Or redesign architectures to scale with cost-effectiveness
+Investigate and understand source 
+Alerting
+"Contacting responsible team(s) if possible to understanding the anomaly. Discuss Cost optimization opportunities if applicable."
+contact application owner to check if it is a real anomaly or not
+Investigate
+Work with Teams to understand the anomaly and take action in real time
+Direct contact with engineering team to address the issue/confirm the spend.
+analyse data
+Deep diving in cost calculation & verification with public cloud support
+we use showback and labels to determine which team owns the resources and whether or not it is a customer-facing resource, then we put in a Jira issue to ask the owning team to investigate the increase and report back to us.
+Check the cloud costs tools to identify anomalies and after perform remediation action with the account owners
+work with infrastructure and development team to determine root cause
+We review the data and look for the root cause. This is still a very manual effort and it happens only after the fact.
+Investigate further to identify the source (owners and cloud resources) & then follow up if we're able to identify the correct team to contact
+identify the cause of the anomaly through the AWS tools and the partner, correct the gap by changing the environment (if possible) or tag with the correct cost center.
+Inform proper stakeholders 
+contact account owner
+centrally reporting, escalation to teams when it hits a certain level
+inform "owner"
+Determine source of anomaly by business activity.
+Automation and improving the dashboard 
+discuss with app owner to see if this is normal or not
+Reach out to the Stakeholder who owns the cost code.
+Contact team that has anomaly
+Integrated in-house solution
+Identify what service is causing the anomaly and then identify resources and teams responsible. 
+Analyze the data, discuss with the responsible party to identify the cause of anomaly so next steps can be defined if needed.
+We use the anomaly alerting from Cloudability. Once the alert is received we identify the resources & reach out to the resource owner to determine if the additional cost was expected or if it was an anomaly. The time to reach out to the resource owner & get a response & take action is minimal (hours). The longest portion of the anomaly detection process is waiting for the CUR file to be refreshed with the data so that the anomaly can be trigged initially. 
+starting right-resizing process immediatly
+Sending the notification to the responsible team
+In a Run state we would like this to trigger a service now ticket for the correct owner. 
+Look at the problem and discuss if it a problem
+Email the application team. Track the anomaly as a metric
+Report to business and IT Owners to take action
+Identify the team in charge of this resource in order to alert it
+Raise it to the responsible unit for further analysis of root cause.
+Find the cause of the anomaly and remove it if it is undesirable. Flag it to stakeholders if it is desirable.
+Speak to the workload owner and find out the reason.
+Speak to the service owner to understand why 
+vs. previous
+Ad hoc review
+Depends on customer context. Can be a automated rule or notifications
+Report to service owners, estimate losses
+Drill down to resource level and communicate with owner
+Review thresholds to determine if need to address or still within acceptable limits. reach out to resource owner. If no resource owner, delete. 
+Review Daily Spend and Unit Utilization
+Manual outreach to engineering teams
+Contact owning team and request a justification for anomaly
+manual response
+Investigation and root cause analysis
+Notify development team and billing department
+Manual analysis and identification. Communication with workload owner to determine if action is required. 
+increase tooling and automatisation
+Reach out to the team who increased their usage and ask why, is it temporary, etc. 
+Report to cloud support email
+Prise de contact avec les équipes responsables de l'augmentation, et qualification de la dérive pour voir s'il s'agit d'un faux positif ou s'il faut mettre en place un plan de remédiation
+FinOps team investigate and raised the alert to the appropriate team with advice and recommendations and add the topic in documentation or to-do policy
+"- Reach out to impacted team/application
+- Identify root cause of anomaly 
+- Adjust budget/forecast
+- Put in guardrails to prevent next occurence"
+Notification goes out and we investigate root cause
+Contact owners and work with them
+Informal report to the team responsible for the systems causing the anomaly. 
+Determine where the anomaly came from and work with the team that generated it
+Review cost and usage then contact account/app owner with details of spike
+Informing the appropriate team leadership
+Meetings
+Inform the appropriate team. Recommend action to fix it.
+Taking contact with the team in charge. If no action in a decent time, escalation.
+Try to understand what is driving the cost (upwards or downwards) and understand teams that are responsible for the change to bring overall accountability and visibility.
+Monthly budgets set and defined - we are working on enhancing our manual checking process so that all our regions sperform manual checks at least once a month. - This is the initial stage, we want to fully automate this process by mid 2022
+Regular reviewing of data manually
+Reach out to owner of the account
+Got surprised and start investigating
+Consult with business and application teams to identify if consumption is justified. 
+Notify the cost centre owner
+Check
+Notify product team and provide details
+Escalate to finance and engineering to determine spend/usage variance
+Alert
+An incident ticket is opened to the team responsible
+action
+Still working on it
+ reviewing resources allocation
+Reach out to AWS account owners and work with them to review the anomalies.
+Contact corresponding Service Owner and, sometimes, cut off the workload
+Investigate and remediate
+notification
+Investigate and remove if truly an anomaly
+Ask if ok
+Contact project team directly
+Inform my customer
+notify 
+Immediately inform the stakeholders and take corrective actions
+Analyse
+Research and shaming.
+Slack-based detection tool alerts teams and prompts investigation / response
+notify responsible people , analyze best solution, monitor recommendation fulfilment progress
+Look at data and see if policies applied are correct. Not sure if there is an automation applied (new to team). 
+Consult with app owning team to determine corrective action, if required. 
+Research source of the anomaly and notify the owners
+inform customer 
+1) As soon as we detect the anomaly, we immediately go through the reports to understand which resource is contributing to the spike in the cost 
+Enabled AWS Cost Anamoly
+Track down with help of respective product team 
+Notify stakeholder, investigate more detail on the anomaly
+Investigate and try to estimate alignment to value or expected use
+Inform the assett (app) owners, technical and business owners who can rectify
+Our practice is still finding our feet, currently we pull data, make analysis and go back to the relevant team to ask if they know why this happened. We are working towards a more automated process.
+Once we find we address the issues
+Research the service then log a support request with the vendor 
+Manually start doing the mapping of what might have gone wrong and manually find out the issue
+"Analysis on consumption pattern 
+Interview with infra or application owner 
+FinOps recommendation 
+We inform the relevant team immediately with proposed corrective actions that can be taken 
+Review and address 
+Determine what the business justification, if any, tied to the cost anomaly.  
+Bb
+Email notification to owner.
+Open a ticket for team to investigate
+Call a committee. 
+1) identify the account owner
+2) request owner respond if anomaly was expected and why
+3) advise them to  update their chargeback forecast"
+Review of anomaly, tags cross-checked against approved budget codes & project investment codes, review architecture requirements with provisioning teams - decision made on retain or destroy based on conversation. In future destroy will be an action following provision if tagging is not in place and managed by CloudHealth
+Comprendre la source de l'anomalie et la corriger
+Cluster stops.
+contact devops team to trace the cost leak owner
+Jira ticket with investigation steps. 
+investigate
+Deep dive and analysis
+Notify resource owner.
+Contact the person responsible of the anomaly.
+Alerts from the Clouders.
+none
+Report
+Reach out to the engineering team, find the owner, and remediate the anomoly.
+work closely with cloud teams
+production: email resource owner, test: email resource owner, sandbox: delete resources
+notify users for analysis and Root cause
+Discuss with owner in slack
+Report to the responsible team project to manage and adjust the resources to the current value or structure or to study the case and report what we need to expect from now on about the specific project costs.
+Alert stakeholders and analyse metrics to identify the sources
+monitor/notify a NOC/DevOps team/ fix it/ automate 
+stopping anomaly  spend on resource
+Reached out to owner if we are able to identify it
+Report to the respective stakeholder to take action if the spike was unknown
+remediate or alert
+Notify the responsible team and managers about the issue, so we can plan to solve it ASAP.
+Communicate to TAR to identify if it is expected or unexpected cost increase, and to inform the team to take action if unexpected.
+Escalate to owners, educate, and define plan to remediate or eliminate.
+Work with Product leads and DevOps team to identify the reasoning behind the anomaly and then work cross functionally on a mitigation strategy. 
+Contact subscription/account owner.
+an email from 3rd party tool. 
+Refer the issue to the Product Manager
+Determine the source of the anonmaly, work back with asset owner to determine rationale and remediate if required.  
+Open tickets to appropriate team
+View anomaly. Determine if it is expected. Come up with a plan to address anomaly.
+We configure tools to alert anomaly. In this case, as we are service provider, we notify our customers pointing what workload/parameter is causing it.
+Immediate customer notification
+Contact the team/individual based on the tagging.  Email or IM to them the question "Do you know..." and show them the graphic of the issue.  If the answer is yes, I ask "How long will this continue".  Obviously more work if the resource is un-owned.
+Shut down the resources to control the spend
+log and look at later, still developing 
+Troubleshoot 
+Communicate efficiently, then provide options to fix.
+Alerting to engineering team + Ticketing for follow up
+Set up a discussion with a responsible stakeholders. Create and share report 
+Cross functional team meeting
+Email to stakeholders and account/project owners.
+I'm not there yet
+contact to the involving team directly for taking actions with in slack group and/or open Jira ticket
+notify the concerned team and will guide them to use of RIs and other options avaialble
+Analysis after the fact
+Check logs to check if it was a spike in usage or another kind of problem i.e: deployment, sizing etc
+Enable alerts
+Contact account/resource owners
+Reporting and analyze the gaps
+notify the appropriate owner via email /SMS
+notify the relevant group
+See if it's expected. If not, speak to engineers.
+Review deviation with engineering/product management and incorporate feedback to anomaly detection
+Panique
+Contact App/ service owners indicating the cost increase and take necessary actions if its unexpected
+Raise ticket for visability(Jira) and invoke manual investiagation and escalation
+"Enable Cloud Anomaly Detection from Cloud Security Command Center
+View findings in Cloud Security Command Center
+Remediate findings from Cloud Security Command Center "
+"Centrally diagnose.
+Intercept with accountable decentralized team.
+Track, report, assist to resolve.
+Escalate for non-responsiveness "
+Alert and API automation with our software ercole.io
+Request the responsable team for explanation
+Matching to business performance, measure where the anomaly happened as granular as possible, matching the production deployments at the time of the event, figure out if a specific customer caused it
+Investigate what caused the anomaly.
+Investigate cost details (time, specific invoice meters, any patterns), and engage with relevant team (e.g., sys admins, engineers)
+Communicate. Gather evidence. Identify root cause. Potentially shut down resources responsible.
+Manually reach out to the application teams tech lead to understand/resolve the reason for the anomaly.
+try to understand with the sres and product teams what happened
+Validate the utilisation, run around product teams and then address the issue. It is tiring 
+Deep dive analysis
+reach out to application owners , shutdown if experimental, remediate any gaps in controls
+reach out to users/groups to determine usage justification/anomaly
+inform with analysis
+Contact cost owner and notify them
+Communicate to the development team and ask them to inspect 
+research
+FinOps team reach out for verification to product team
+Automated
+RCA and action plan to avoid the cause in future.
+Alert or mediate
+notify the owner of the resources behind the anomaly to take action (review/analyze/terminate/explain/report)
+Inform
+Investigate, report to business owner, document decision and signoff
+1. Raine an alarm in the system. 
+2. Send notifications. 
+3. Time-series of the events. "
+Contact the team lead for that solution and query on any changes they've made.
+Report to account owner
+Report and Track the anomalies
+Still trying to work this out
+Send Slack to inquire
+Report and contact app owner 
+Raise with the appropriate team to understand if it is expected, take appropriate action from there
+At the end of a month we look for anomalies and then point out the behavior to teams.
+Review of costs with business units 
+Send notification to appropriate teams for relevant action. In some cases automate the process for auto correction
+Identify cause and take immediate action if necessary to terminate the anomaly.
+Email the team who owns the account with the anomaly to get more details and decide next steps
+Informing the stake holders and discussing any changes required in architecture
+We maintain a list of contacts for each account and contact the relevant people when an anomaly arises
+inform the Production owner
+Referred back to the devops team for action
+Dive in our cost explorer, sometimes even logs
+Review the data presented by AWS Anomaly Detection, then further pinpoint the source, come up with a theory for what's driving it, then reach out and work with the application owner to determine if it's expected or not, and course-correct if need be.
+triage, then depending on a threshold either handle it jointly in a working group or schedule for the affected team to solve as a part of their normal priorities
+Revisar CUdos y chequear cada cuenta
+contact application owners
+1) Investigate the source  2) Determine if it is necessary  3) Kill it, or communicate it.
+Flag to app owners and finance for action
+Identify, validate and act based on findings.
+Notifications are sent to the Teams
+"contact teams"
+Report, pause/stop, investigate, resolve. 
+"1) Slack tech lead for team involved, whether infrastructure (SysOps) or apps (Dev teams), to get quick context.
+2) Slack Product lead to get context on any demand changes.
+3) If relevant, assign engineering task in Jira.
+4) If relevant, alter forecast and notify Finance.
+5) If relevant, document lessons learned in Confluence."
+Shutdown resources/processes causing the anomaly; Implement improved automated controls (if applicable).
+Notify responsible parties and sr. management.
+Reach out to SRE team to understand impact. If we can collect information to ignore alert or action can be taken to prevent further anomaly spend. If actionable, we record avoidance for the rest of the month.
+if tagged then contact the owner, if not then the account owner in which the spend has been detected.
+Open a Severity Level 2 Incident and escalate for resolution.
+Contact the team or responsible party for where the anomaly happened.
+Inform the account owner and work on optimizations
+Alert the responsible team via Slack/Mail. Drilldown in the anomaly to give additional information - business unit/team/department which is responsible. 
+Alert owning team, understand cause for anomaly, make suggestions for reducing spend when possible
+Inform the customer
+Analyse, Incident Management Process with mitigation with the SREs or IT leads
+Have a discussion with the owner to understand if that's an actual anomaly and if it is, what can be done to avoid this from happening once again
+Talk with the team that's responsible for the project to see if anomaly was expected. When it's not (= 80% of the time), dig to understand…
+We have a Ticket Duty rotation in place. Alerts are sent to Slack. We investigate whether the increase is explained by one of the agreed upon projects (we have a spend watchlist in place),  otherwise reach out to the team(s) in questions if we need more details.  
+Report back to finance team 
+Notify account owner and cost center cloud cost responsible
+Contact the stakeholder and work with them to understand the issue, and if needed make a remediation plan
+Detailed Analysis
+Inform application / platform owner
+Depends, but primarily alert the accountable team.
+Ask Service Owner to justify or resolve
+Investigate the cause
+Investigate root cause and notify group that is responsible for that environment.
+Notify the service owners
+manual review of daily spend for now
+Reach out to operations engineering team to verify and take action.
+Contact the developers to understand the anomaly
+Agile Team responsible is notified. Architects work with Agile Teams to "correct" the situation. Anomolies are included in regular reporting. Agile Teams are given positive attention and feedback when anomolies are addressed.
+We (Finance Finops team) centrally monitor anomalies for the Enterprise (rather than a decentralized monitoring) approach. We flag a list of top-X anomalies in terms of materiality, and before escalating these to the Tech leaders, internally review against patterns, to weed out 'false flags'. The remaining anomalies which are Red Flags, are escalated to the Tech and Finance owner, along with an explanation of why escalated; and a request for an explanation/solution for the cost spike. This 'whack a mole' approach has yielded us millions of saves per year in 'quick fixes'. Maybe more importantly, it has brought to light larger, more systemic issues, with a broad impact (before they have become material across the enterprise) -- which we have worked with Tech leadership to mitigate during the infancy stages.
+Ensure Account Owner, Cost Center Manager and Developers received notification
+Email or Slack notification. Can turn off/system learn if not an anomaly of concern. 
+Investigate, contain
+finops team does initial analysis, working with application team
+Drill into the details to actualise what the anomaly means, ie: expected or not expected and act based on the outcome.
+Manually reconcile the data to perform the root cause analysis
+I am more focused on FinOps automation, but when we detect an anomaly, my manager (who is the other member of the FinOps team), investigates the anomaly and reaches out to the responsible parties to figure out how to fix the problem.
+We usually talk to the resource owner
+Investigate it via cloud management tool, dig into meta data available
+Contact the account admins
+The first step is to seek to understand the issue and then engage with teams to correct the issue (if necessary).
+I request information from the area responsible for the resource.
+Check cost explorer, verify it's an anomaly, and reach out to the team responsible. 
+Investigate costs to explain this anomaly and fix it if possible.
+Alerting and recommendation
+I alert the owners and ask for explanation and resolution/action
+Follow up with team
+Use automated solutions from AWS & Cloudability. Have those sent to the Cloud FinOps team and automatically forwarded to the IT Owner for them to look at.
+Evaluate if it is worthy of escalating to the development team. 
+Communication with application owner to drill down 
+Research anomaly, reach out to owners to collaborate on the issue.
+Contact the tech lead in charge first for action and warn the person responsible of the budget 
+"Determine whether budgeted for, or incidental. 
+ Communicate anomaly to the team associated with tags on those instances/workloads.  Engage on rightsizing and optimization opportunity to contain cost anomaly.  Implement automation with the help on product engineering or infrastructure engineering team to prevent anomalous spend moving forward."
+depends on severity, might take immidiate Ops action or create a dev path
+Contact Account or application owner via email
+Engage engineering team to review Cost Explorer.
+Assess the anomaly, talk to engineering/product team or cloud vendor depending on the anomaly.
+Inform managers
+contacted owner, collecting more data; looking for the root cause of an anomaly
+1)Inform Project Manager, 2)Query the cost with PM/ENG, 3)Suggest corrective action. 4)Implement Corrective action technically or change habit behaviorally.
+Diagnostic, Plan, Execute
+Contact the workload/service owner
+Review with owners for appropriate action
+AWS anamoly
+Get the team together to discuss, investigate and determine next steps.
+Contact the owner to understand more.
+research and work with resource owner.
+Communicate it to related stakeholder
+identify the source
+Triggered process that comes from tooling that creates a JIRA ticket and also send SNS notification to product and technical owners copying in FinOps teams
+Human task
+All we can do is notify the account/resource owners of the anomaly, and accept the response (whether it is expected or unexpected)
+Notify the relevant team
+Determine criticality and materiality, connect with responsible team to determine cause and whether expected or not, if not expected, remediate and find solutions to proactively prevent this in future, document on shared company page for knowledge sharing
+sdafas
+"Still working on how to manage anomalies.
+Anyway, in a short, we meet the specialist together and discuss about what is happening, look at the cloud management tool..."
+Find the user who is responsible for the charges
+Reach out to custodians to understand the variance 
+Recommend and ask for action
+Inform tech responsible
+Identify the anomaly, was it justified by a business case or event, verify the need for the additional spend or create a plan for remediation, assign controls to prevent from occuring.
+Work with contributing teams to determine expected costs v. reality and reset expectations if needed. 
+Visibility to the team who has ownership, confirm whether it's planned or unplanned, if unplanned - take immediate action to stop runaway costs and educate on the nature of what caused the spike, if planned - determine persistent nature and cover with discounts
+Immediately contact resource owner, show spend anomaly and work collaboratively to mitigate and prevent future recurrence.
+typically contact appropriate team based on tagging taxonomy.
+Actively monitoring cloudcheckr
+Perform manual investigation into the specific service causing the cost growth, the owner tag / account details to find the owner, and establish the timeframe. Then work to understand the driving cause
+Inform the customer and assist in investigating, resolving and putting in remediation activities in place to prevent reoccurrence.
+"Verify the accuracy of the anomaly. Correlate to the change management log to identify changes that could potentially create anomaly.Notify and check with the system owners."
+No one
+Trigger an internal process to have an approval
+Report to the application owner/product team
+diagnose, contact, resolve
+Discuss within Cloud Spend team, then proceed if necessary by working with the FBA for the area(s) affected by the anomaly.
+Notify client/team responsible for cost amomaly.
+RCA (root cause analysis) with internal product/service owner and with vendors as appropriate for any billing related issues
+Contact Engineering team
+Nothing today. It's accepted
+-
+Document
+We are starting to use the AWS Cost Anomaly Detection Tool.
+fix it
+Reverse engineering to find RCA
+Email & Jira tickets
+Email, phone, automation if needed
+Notify Account owner and user (if identifiable). Identify root cause -- kick off problem management to avoid in the future (if appropriate)
+We use Cloudability
+We are learning from our customer's feedback! 
+Analysis and reporting to senior manager
+None
+pull daily report for the application and reach out to the app owner or department contact.  Some anomaly detection goes directly to the teams. 
+Analisis and inform the owner, to confirm it
+Engaging DRI to respond to an accident and triage 
+Manual Review
+Inform the project owner/project team
+Investigate why/who and inform about remediation options
+Alert based rules
+email communication to application portfolio owner
+FinOps reviews the alert sent out and notifies the engineers supporting that account that an alert was detected to ask if they know what would have caused it. In a future state the alert would go directly to those engineers.
+Contact the responsible persons
+Validate it and then report it to the engineering team responsible
+report and involve application owner/engineering team
+Try to clear which resources made the anomaly, and hear the team leaders in my organization.
+It's a murder mystery. It's a either a backlog fix or a systems problem.
+Investigate then manually remediate if necessary
+Identify leveraging the tool and align with the team with right reasoning to fix it.
+Contact the development team, or the IT owner of the application to determine the cause of the anomaly.
+"review reporting
+validate cost data processes completed successfully
+identify and alert owner
+review environment changes
+"Inform the customer of his anomalous spend
+report 
+Workload review meeting with application and infrastructure owners 
+"First, reach out to the product owner to see if they were doing something to cause it that we were unaware of. "
+Report/notify cost center owner, Business owner and suspend the service 
+E-mail the responsible person for the relevant budget group
+Digging..lots of manual digging
+We go after the owner of the system that increased the cost (believing the tag is ok). Otherwise, we go after the engineer who “pressed the button” that created the new cost item 
+We review the cost and usage data from multiple sources. Talk to the owning team to understand if this is expected. If not, we team up with them to identify the root cause.
+Request feedback from engineering team responsible for the workload linked to the reported anomaly
+Identify anomaly source team/product and discuss with relevant team/stakeholders of the cause. If not warranted, develop a remediation plan over a realistic time period. Finance are kept up to date. 
+Look at which instance increased and contact the Cost Center to let them know about the increase.
+Contact account owner and ask if it's an expected change
+Review with team responsible for the service/infrastructure
+REACH OUT TO RESOURCE OWNER TO CONFIRM COST IS EXPECTED OR REQUEST SERVICE IS SHUTDOWN/ADJUSTED
+Dive into the details; Alert product team and cloud engineering team
+Understand cause, discuss with user to determine if any action is required, notify management
+Depends on the impact/service. Typically engage relevant stakeholders to notify them and get information/resolution. 
+The team responsible is made aware and they investigate and report back what’s happened and the resolution.
+Review with service owner to assess driver for increase / decrease.  From there support them in making a decision on what action to take.
+Inform the Engineer in charge of the respective Customer environment
+Set alerting thresholds which email the Engineering leads when passed
+manual check and fix if needed
+Trend and current data from core tools
+We inform and act if there is any special thing thats happends
+Reach out to the owner of the spend and flag to them, we don't do much centrally yet but encourage the engineers to be responsible for tracking and spotting anomalies. Once we have our tool implemented we will improve this.
+compare current usage vs historical average
+Assess underlying reasons to identify need for remedial action or otherwise
+Alert the owner/stakeholder of the anomaly (lets say an increase in costs of an application), then analyse where the costs increased, find out why. Once this is understood, identify if there are any options to reduce cost without impact to performance. If none, look to rightsize. If none, ask for budget increase or terminate that service and ask Solutions Architects to redesign.
+investigate it
+Vision: auto-detection, raising an alert, act according to investigations.
+We immediately let the Application team aware of what's happening in their AWS account. They need to make the necessary decisions or take the necessary actions.
+None
+manual analysis
+Manually check if there is any discrepancies in tagged resources.
+Work with the source team on identifying causes and resolutions
+I will alert the customer, then investigate the cause, then revert back to customer with investigation results and suggestions. 
+We use a reporting escalation process 
+Report and enquire 
+Budgets or after getting a painful bill more reactive 
+N/A for my role. The product can alert on anomalies via our policy engine. Automated actions are available for setup
+"Work item creation, routing and assignment.  Root Cause Analysis and immediate justification/remediation as applicable.   Driven by centralized FinOps team consistently. 
+ App team participation and engagement varies.   Working towards more advanced and automated anomaly detection, alerting and remediation framework and workflow to reduce the effort score and manual effort of our App teams.   We aspire towards intra-day detection as we plan to source events from our Infrastructure as Code platform and hopefully correlate with patterns that can pre-warn app owners of potential cost increases before the day elapses and the real metering begins.  "
+question the resource owner as to what is causing the spend increase. then act accordingly - fix the problem or document/communicate what the spend was for.
+Begin asking questions about usage and reservation instances; Refer to CloudHealth for reporting on drivers.
+Starts with email communication to the team then setting up time to discuss the reasons.  
+Meeting with DevOps, Service and Subscription Owner
+Warn manager and trigger meeting
+Identify the cause of the anomaly, then either fix the anomaly or update rules/alerts so that the same thing is not reported as anomaly in future
+Not Applicable
+Automated Slack- and Email-based alerting when outside of normal variance immediately notifies both engineering and finance teams of anomaly and requires investigation and response.
+Reach out to owner of the resources 
+Report to respective technical team
+Automated email, sometimes automated action
+Fire drill analysis 
