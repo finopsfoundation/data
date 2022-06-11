@@ -1,0 +1,72 @@
+Tools respondents mentioned in the State of FinOps
+
+AWS Cost Explorer
+AWS CUDOS/Cost Intelligence Dashboard
+Azure Cost Management
+Azure PowerBI Dashboards
+Backstage (Spotify)
+Centilytics
+Cloudability (Apptio)
+Cloudcheckr (NetApp)
+CloudHealth (VMware)
+Cloudthread
+Cloudwize
+CloudZero
+Cloud Custodian (CapitalOne)
+CoreStack
+Costimize
+Densify
+Datadog
+DRYiCE MyXalytics (HCL)
+Exivity
+FlexSave (DoiT)
+Flexera Optima (RightScale)
+GCP BigQuery/Looker
+GCP Cost Tools
+Harness
+Klarity (Nordcloud)
+KubeCost
+Opsani
+Pileus
+ProsperOps
+Replex
+Splunk
+SoftwareOne PyraCloud
+Spot (NetApp)
+StormForge
+Ternary
+Turbonomic (IBM)
+Virtasant
+Yotascale
+Service NOW
+MS Excel
+Crane
+CloudAware
+Cloud8 
+Tangoe
+Metabase (BI tool)
+Morpheus
+opsnow
+JuggCMP
+Grafana
+Digital fuel
+New Relic
+Tableau
+Cloudeasier
+Lotacloud
+Athena
+Looker
+Oracle Cloud Tools
+DivvyCloud
+Cloudbolt
+Nutanix Beam
+Zesty
+Teevity
+Domo
+Magic Orange
+CloudBolt 
+Finout
+Tangoe Cloud One
+Cloudwiry
+Zesty
+Wave (alphaus)
