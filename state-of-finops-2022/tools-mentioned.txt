@@ -60,7 +60,6 @@ Oracle Cloud Tools
 DivvyCloud
 Cloudbolt
 Nutanix Beam
-Zesty
 Teevity
 Domo
 Magic Orange
